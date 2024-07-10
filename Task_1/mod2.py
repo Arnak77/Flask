@@ -1,0 +1,1 @@
+print(f"Running command mod2 -({__name__})")
