@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block code %}
+<h3>Given no is {{ number}}</h3>
+{% if number%2==0 %}
+    <p>The given imput{{ number}}is even</p>
+{% else  %}
+    <p>the given input {{ number}}is odd</p>    
+{% endif %}
+
+ {% endblock code %}

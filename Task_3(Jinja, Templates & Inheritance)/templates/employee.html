@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block code %}
+<h1>Employee Data</h1>
+    <ul>
+        {% for key, value in emp.items() %}
+            <li>
+                ID: {{ key }}<br>
+                Name: {{ value.name }}<br>
+                Age: {{ value.age }}<br>
+                Position: {{ value.position }}
+            </li>
+            <hr>
+        {% endfor %}
+    </ul>
+
+
+ {% endblock code %}
